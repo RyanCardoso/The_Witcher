@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    color: #ffffffbe;
+    text-decoration: none;
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://static4.depositphotos.com/1001944/359/i/600/depositphotos_3594620-stock-photo-fire-isolated-over-black-background.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+header .logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo-Img{
+  width:35px;
+    margin-right: 1rem;
+}
+
+.logo-Txt:hover {
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-left: 25rem;
+}
+
+nav ul li{
+    padding-left: 2rem; 
+}
+
+nav ul li:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+main{ 
+    z-index: 2;
+    background-image: url("http://pngimg.com/uploads/witcher/witcher_PNG49.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-position-y: 1px;
+    background-size: contain;
+    height: 100%;
+    width: 100%;   
+}
+
+main div{
+    height: 90%;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.theWicther-img{
+  width:350px;
+}
+
+.BtAssista{
+    margin-top: 1rem;
+    background-color: black;
+    width: 238px;
+    height: 50px;
+    border-radius: 0.51rem;
+    border: none;
+    outline: none;
+    background-image: linear-gradient(#e51320,  #b6101a, #e51320);
+    cursor: pointer;
+}
+
+.BtAssista:hover{
+    width: 258px;
+    height: 70px;
+    transition: 0.5s;
+    font-size: 1.2rem;
+}
